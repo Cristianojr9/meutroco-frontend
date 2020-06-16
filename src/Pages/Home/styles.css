@@ -1,0 +1,299 @@
+@media only screen and (max-device-width: 1920px) {
+  .nav {
+    width: 100%;
+    height: 171px;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav img {
+    margin-left: 10%;
+  }
+  
+  .nav ul {
+    display: flex;
+  }
+  
+  .nav ul a {
+    margin-right: 70px;
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: gray;
+    cursor: pointer;
+    letter-spacing: 0;
+  }
+  
+  .nav ul a:hover {
+    color: black
+  }
+  
+  .info-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .info-page img {
+    margin-right: 10%;
+  }
+
+  .info-page .info-text {
+    text-align: center;
+    margin-left: 135px;
+  }
+
+  .info-page .info-text h2 {
+    font-size: 76px;
+    font-weight: lighter;
+  }
+
+  .info-page .info-text p {
+    font-size: 76px;
+    font-weight: bold;
+  }
+
+  .info-page .info-text button {
+    width: 372px;
+    height: 90px;
+    background: #FD622E;
+    border: none;
+    border-radius: 10px;
+    font-size: 28px;
+    cursor: pointer;
+  }
+
+  .info-page .info-text button:hover {
+    background: #d85428;
+  }
+
+  .info-page .info-text button img{
+    margin-right: 200px;
+  }
+
+  .info-page .info-text button p{
+    font-size: 28px;
+    margin-left: 60px;
+    color: white;
+  }
+
+  .info-page .info-text button h2{
+    font-weight: lighter;
+    font-size: 28px;
+    margin-top: -75px;
+    margin-left: 70px;
+    color: white;
+  }
+
+  .description-meutroco .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8%;
+  }
+
+  .description-meutroco .title h1 {
+    font-size: 84px;
+    font-weight: lighter;
+    justify-content: center;  
+  }
+
+  .description-meutroco .description-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .description-meutroco .description-info img {
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+
+  .description-meutroco .description-info p {
+    font-size: 53px;
+    margin-top: 5%;
+    margin-right: 10%;
+    font-weight: lighter;
+    position: relative;
+  }
+
+  .description-meutroco .description-info p::before {
+    content: '';
+    width: 100px;
+    height: 5px;
+    margin-top: -10px;
+    margin-left: 3px;
+    position: absolute;
+    background: #FD622E;
+  }
+
+  .text-information {
+    margin-top: 9.5%;
+    background: #FD622E;
+    height: 1080px;
+  }
+
+  .text-information .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text-information .title h1 {
+    font-size: 84px;
+    font-weight: lighter;
+    justify-content: center;  
+    margin-top: 6%;
+    color: white;
+  }
+
+  .text-information .description-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .text-information .description-info img {
+    margin-right: 10%;
+    margin-top: 5%;
+  }
+
+  .text-information .description-info p {
+    font-size: 53px;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-weight: lighter;
+    color: white;
+  }
+
+  .text-information .description-info p::before {
+    content: '';
+    width: 100px;
+    height: 5px;
+    margin-top: -10px;
+    margin-left: 3px;
+    position: absolute;
+    background: #515151;
+  }
+
+  .text-empresas .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text-empresas .title h1 {
+    margin-top: 5%;
+    font-size: 84px;
+    font-weight: lighter;
+    text-align: center;
+  }  
+  
+  .text-empresas .description-empresas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .text-empresas .description-empresas img {
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+
+  .text-empresas .description-empresas p {
+    font-size: 53px;
+    margin-top: 5%;
+    margin-right: 10%;
+    font-weight: lighter;
+    color: black;
+  }
+
+  .text-empresas .description-empresas p::before {
+    content: '';
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 3px;
+    background: #FD622E;
+  }
+  
+  .duvidas {
+    height: 500px;
+    width: 100%;
+
+    margin-top: 10%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .duvidas h1 {
+    font-size: 76px;
+    font-weight: normal;
+    margin-top: -10%;
+  }
+
+  .duvidas span {
+    font-size: 35px;
+    font-weight: lighter;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .duvidas span::before {
+    content: '';
+    width: 377px;
+    height: 7px;
+    margin-top: -80px;
+    margin-left: 3px;
+    position: absolute;
+    background: #FD622E;
+  }
+
+  .duvidas input {
+    width: 600px;
+    height: 85px;
+    
+    position: absolute;
+    margin-left: 12%;
+    background: #c9c9c952;
+    border-color: transparent;
+    border-radius: 55px;
+
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.329);
+    cursor: auto;
+  }
+
+  .duvidas button {
+    width: 150px;
+    height: 85px;
+
+    position: absolute;
+    background: #FD622E;
+    border-color: transparent;
+    border-radius: 55px;
+    margin-left: 40%;
+
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .duvidas button:hover {
+    background: #d45227;
+  }
+
+  .duvidas input:hover {
+    background: #c9c9c977;
+  }
+}
+  
+
+
+
